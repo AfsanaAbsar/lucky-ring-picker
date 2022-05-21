@@ -1,4 +1,24 @@
 .product-img {
     width: 300px;
     height: 300px;
+    padding: 20px;
+}
+
+.product {
+
+    text-align: center;
+
+}
+
+.ring-name {
+    color: rgb(30, 30, 69);
+}
+
+.select-btn {
+    border: none;
+    background-color: rgb(30, 30, 69);
+    padding: 20px 10px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
 }

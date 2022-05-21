@@ -1,3 +1,5 @@
+import { faThumbsDown, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './SelectedItem.css'
 const SelectedItem = ({ selected, handleReset }) => {
@@ -25,8 +27,9 @@ const SelectedItem = ({ selected, handleReset }) => {
         if (choose) {
             document.getElementById('selected-items').innerHTML = `
                   
+            
+            <h3>Your Lucky Ring : ${choose}</h3>
            
-            <h1>${choose}</h1>
             `
         }
 
@@ -35,10 +38,10 @@ const SelectedItem = ({ selected, handleReset }) => {
     // const { selected } = props.selected
     return (
         <div id="selected-items">
-            <h1>Selected Rings : {selected.length}</h1>
-            <h1>{name}</h1>
-            <button onClick={() => handleChoose()}>hhhh</button><br />
-            <button onClick={() => handleReset()}> rrr</button>
+            <h2>Selected Rings : {selected.length}</h2>
+            <h3>{name}</h3>
+            <button className='choose-btn' onClick={() => handleChoose()}>Choose One <FontAwesomeIcon icon={faThumbsUp}></FontAwesomeIcon></button><br />
+            <button className='reset-btn' onClick={() => handleReset()}> Reset <FontAwesomeIcon icon={faThumbsDown}></FontAwesomeIcon></button>
 
 
         </div>

@@ -32,7 +32,7 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div>
+            <div className='selection-area'>
                 <SelectedItem
                     selected={selected}
                     handleReset={handleReset}

@@ -1,0 +1,24 @@
+#selected-items {
+    position: sticky;
+    top: 0;
+}
+
+.choose-btn {
+    border: none;
+    background-color: rgb(30, 30, 69);
+    padding: 20px 10px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.reset-btn {
+    border: none;
+    color: rgb(30, 30, 69);
+    border: 1px solid rgb(30, 30, 69);
+    padding: 20px 10px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
