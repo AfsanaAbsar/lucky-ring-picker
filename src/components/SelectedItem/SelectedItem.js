@@ -7,18 +7,10 @@ const SelectedItem = ({ selected, handleReset }) => {
     let name = ''
     for (const product of selected) {
         name = name + product.name + ',';
-
-
-
-        // const choose = Math.random();
-        // console.log(choose);
     }
     let id = []
     for (const product of selected) {
         id = [...id, product.name]
-
-
-        // items[Math.floor(Math.random()*items.length)
     }
     const handleChoose = () => {
         console.log(id);
@@ -35,7 +27,7 @@ const SelectedItem = ({ selected, handleReset }) => {
 
 
     }
-    // const { selected } = props.selected
+
     return (
         <div id="selected-items">
             <h2>Selected Rings : {selected.length}</h2>

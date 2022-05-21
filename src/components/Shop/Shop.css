@@ -21,13 +21,13 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
-        overflow-x: hidden;
+
     }
 
     .shop-area {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        overflow-x: hidden;
+
     }
 
 }

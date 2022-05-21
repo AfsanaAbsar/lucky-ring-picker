@@ -6,7 +6,7 @@ import Shop from './components/Shop/Shop';
 
 function App() {
   return (
-    <div>
+    <div className='body'>
       <Header></Header>
       <Shop></Shop>
       <Qa></Qa>
