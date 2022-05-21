@@ -25,3 +25,15 @@
     padding-right: 15px;
     color: white;
 }
+
+@media screen and (max-width: 688px) {
+    .nav-bar {
+        display: block;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+
+
+    }
+}
