@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# About the website
+It is a website where you can select your favourite product and choose randomly pick one from selected products.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website Live link
+[Click here to see the live link](https://astonishing-maamoul-ab4145.netlify.app/)
 
 ## Available Scripts
 
