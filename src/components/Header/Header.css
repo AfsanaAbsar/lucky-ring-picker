@@ -1,0 +1,16 @@
+.nav-bar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 80px;
+    background-color: beige;
+    align-items: center;
+    padding-left: 50px;
+
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+}

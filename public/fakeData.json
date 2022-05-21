@@ -1,0 +1,86 @@
+[
+    {
+        "id": "001",
+        "name": "Diamond Leaf Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/YWYKsPZ/d2.jpg"
+    },
+    {
+        "id": "002",
+        "name": "White Diamond Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/mt8TY62/d3.jpg"
+    },
+    {
+        "id": "003",
+        "name": "Royal Beauty Diamond",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/NTp9r20/d4.jpg"
+    },
+    {
+        "id": "004",
+        "name": "Crown Diamond Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/ykfPx1x/d5.jpg"
+    },
+    {
+        "id": "005",
+        "name": "Royal Brown Diamond",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/tDhNjTq/d6.jpg"
+    },
+    {
+        "id": "006",
+        "name": "Pink Stone Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/RbJM2vz/d7.jpg"
+    },
+    {
+        "id": "007",
+        "name": "Rounded stone Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/yFrKynp/d8.jpg"
+    },
+    {
+        "id": "008",
+        "name": "Royal Round Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/5T2HZwc/d9.jpg"
+    },
+    {
+        "id": "009",
+        "name": "Single Layer Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/BZsCYKc/d11.jpg"
+    },
+    {
+        "id": "010",
+        "name": "Double Layer Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/rv3bdYJ/d12.jpg"
+    },
+    {
+        "id": "011",
+        "name": "Golden Layered Ring",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/Vv4C9v5/d13.jpg"
+    },
+    {
+        "id": "012",
+        "name": "Royal Blue Diamond",
+        "price": 420,
+        "ratings": 4,
+        "img": "https://i.ibb.co/hsgD119/d14.jpg"
+    }
+]
