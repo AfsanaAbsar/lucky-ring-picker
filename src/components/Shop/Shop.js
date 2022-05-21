@@ -13,7 +13,7 @@ const Shop = () => {
     }, [])
 
     const handleSelectFav = (product) => {
-        console.log('cccccc');
+
         const newSelected = [...selected, product];
         setSelected(newSelected);
     }
