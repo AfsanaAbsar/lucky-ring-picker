@@ -17,6 +17,9 @@ const Shop = () => {
         const newSelected = [...selected, product];
         setSelected(newSelected);
     }
+    const handleReset = () => {
+        setSelected('')
+    }
     return (
         <div className='shop-area'>
             <div className='product-card'>
@@ -32,6 +35,7 @@ const Shop = () => {
             <div>
                 <SelectedItem
                     selected={selected}
+                    handleReset={handleReset}
                 ></SelectedItem>
             </div>
         </div>

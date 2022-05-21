@@ -1,6 +1,6 @@
 import React from 'react';
 import './SelectedItem.css'
-const SelectedItem = ({ selected }) => {
+const SelectedItem = ({ selected, handleReset }) => {
 
     let name = ''
     for (const product of selected) {
@@ -37,7 +37,8 @@ const SelectedItem = ({ selected }) => {
         <div id="selected-items">
             <h1>Selected Rings : {selected.length}</h1>
             <h1>{name}</h1>
-            <button onClick={() => handleChoose()}>hhhh</button>
+            <button onClick={() => handleChoose()}>hhhh</button><br />
+            <button onClick={() => handleReset()}> rrr</button>
 
 
         </div>
